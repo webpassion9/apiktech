@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Title</title>
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="wrapper">
+			<header class="header">
+				<div class="header__main js-window js-scroll-default" id="header-main">
+					<div class="container">
+						<a class="logo hide-header-def" href="#">
+							<div class="logo__img">
+								<img src="img/logo.png" alt="">
+							</div>
+						</a>
+						<ul class="menu">
+							<li>
+								<a href="#">Главная</a>
+							</li>
+							<li>
+								<a href="#">О компании</a>
+							</li>
+							<li>
+								<a href="#">Проекты</a>
+							</li>
+							<li>
+								<a href="#">Производство</a>
+							</li>
+							<li>
+								<a href="#">Продукция</a>
+							</li>
+							<li>
+								<a href="#">Контакты</a>
+							</li>
+						</ul>
+						<div class="mob-menu-phones visible_768">
+							<a class="phone" href="tel:84997109911">8 (499) 
+								<span>710-99-11</span>
+							</a><br>
+							<a class="phone" href="tel:84955437650">8 (495) 
+								<span>543-76-50</span>
+							</a>
+						</div>
+						<form class="search hide-header-scroll">
+							<svg class="icon search__icon">
+								<use xlink:href="img/symbol/sprite.svg#search"></use>
+							</svg>
+							<input type="text" placeholder="Поиск по сайту">
+						</form>
+						<a class="btn btn-main btn-main_mod-blue btn-call link-modal hide-header-def" href="#modal-call">
+							<svg class="icon" width="18" height="20">
+								<use xlink:href="img/symbol/sprite.svg#phone"></use>
+							</svg>
+							<span>Заказать звонок</span>
+						</a>
+						<div class="js-window-close btn btn-mob-menu active only-mob">
+							<span></span>
+						</div>
+					</div>
+				</div>
+				<div class="header__bar">
+					<div class="container">
+						<div class="header__bar__row">
+							<div class="header__bar__col">
+								<a class="logo" href="#">
+									<div class="logo__img">
+										<img src="img/logo.png" alt="">
+									</div>
+									<div class="logo__sep"></div>
+									<div class="logo__text">Разрабатываем и создаем высокотехнологичную и наукоёмкую продукцию</div>
+								</a>
+							</div>
+							<div class="header__bar__col header__contacts">
+								<div class="header__contacts__main hide_768">
+									<div class="header__contacts__phones">
+										<a class="phone" href="tel:84997109911">8 (499) 
+											<span>710-99-11</span>
+										</a>
+										<a class="phone" href="tel:84955437650">8 (495) 
+											<span>543-76-50</span>
+										</a>
+									</div>
+									<div class="header__contacts__location">124527, г.Москва, г. Зеленоград, Солнечная аллея, д.6, офис 141</div>
+								</div>
+								<a class="btn btn-main btn-main_mod-blue btn-call link-modal" href="#modal-call">
+									<svg class="icon" width="18" height="20">
+										<use xlink:href="img/symbol/sprite.svg#phone"></use>
+									</svg>
+									<span>Заказать звонок</span>
+								</a>
+								<a class="btn btn-mob-menu js-btn-window only-mob" href="#header-main">
+									<span></span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<div class="content">
+				<div class="main" style="background-image: url(img/bg-about.jpg)">
+					<div class="container">
+						<ul class="breadcrumbs">
+							<li>
+								<a href="#">Главная</a>
+							</li>
+							<li>
+								<a href="#">О компании</a>
+							</li>
+						</ul>
+						<div class="title title_large">О компании</div>
+						<div class="main__desc">Мы хотим оставить значительный след в этой жизни. Поэтому мы строим многопрофильный бизнес и стремимся к предвосхищению потребностей общества и заботе о мире, в котором мы живем.</div>
+						<div class="advantages">
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<svg class="icon" width="70" height="70">
+										<use xlink:href="img/symbol/sprite.svg#check-icon"></use>
+									</svg>
+								</div>
+								<div class="advantages__text">Создание высококачественной продукции отечественного производства</div>
+							</div>
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<svg class="icon" width="70" height="70">
+										<use xlink:href="img/symbol/sprite.svg#bullish"></use>
+									</svg>
+								</div>
+								<div class="advantages__text">Проведение научно-исследовательских и опытно-конструкторских работ</div>
+							</div>
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<svg class="icon" width="70" height="70">
+										<use xlink:href="img/symbol/sprite.svg#administrative_tools"></use>
+									</svg>
+								</div>
+								<div class="advantages__text">Обеспечение российских предприятий современной компонентной и приборной базой</div>
+							</div>
+							<div class="advantages__item">
+								<div class="advantages__icon">
+									<svg class="icon" width="70" height="70">
+										<use xlink:href="img/symbol/sprite.svg#handshake"></use>
+									</svg>
+								</div>
+								<div class="advantages__text">Осуществление услуг управленческого, финансового, технического консалтинга</div>
+							</div>
+						</div>
+					</div>
+					<div class="scroll-down">
+						<svg class="icon" width="37" height="20">
+							<use xlink:href="img/symbol/sprite.svg#arrow-right"></use>
+						</svg>Листайте ниже
+					</div>
+					<div class="main__overlay"></div>
+				</div>
+				<div class="bg-gray-pattern section section-default-offset3">
+					<div class="container">
+						<div class="section-title section-title_small-offset">Сотрудники</div>
+						<div class="section-desc">Все мы — части командного проекта. Того проекта, где человек берет на себя инициативу, вынуждая некоторых участников понять, что их инициатива не приветствуется, в то время как немногие избранные едут на спинах других.</div>
+						<div class="slider-items slider-theme team-wrapper">
+							<div class="team-card">
+								<div class="team-card__img">
+									<div class="team-card__img__inner">
+										<span>
+											<img src="img/team-1.png" alt="">
+										</span>
+									</div>
+								</div>
+								<div class="team-card__title">Сергеев<br>Павел Викторович</div>
+								<div class="team-card__info">Генеральный директор</div>
+							</div>
+							<div class="team-card">
+								<div class="team-card__img">
+									<div class="team-card__img__inner">
+										<span>
+											<img src="img/team-2.png" alt="">
+										</span>
+									</div>
+								</div>
+								<div class="team-card__title">Клеменко <br>Елена Александровна</div>
+								<div class="team-card__info">Главный Бухгалтер</div>
+							</div>
+							<div class="team-card">
+								<div class="team-card__img">
+									<div class="team-card__img__inner">
+										<span>
+											<img src="img/team-3.png" alt="">
+										</span>
+									</div>
+								</div>
+								<div class="team-card__title">Шушняев<br>Генрих Карловчи</div>
+								<div class="team-card__info">Директор по развитию</div>
+							</div>
+							<div class="team-card">
+								<div class="team-card__img">
+									<div class="team-card__img__inner">
+										<span>
+											<img src="img/team-4.png" alt="">
+										</span>
+									</div>
+								</div>
+								<div class="team-card__title">Абакян<br>Виктор Васильевич</div>
+								<div class="team-card__info">Директор по науке</div>
+							</div>
+							<div class="team-card">
+								<div class="team-card__img">
+									<div class="team-card__img__inner">
+										<span>
+											<img src="img/team-1.png" alt="">
+										</span>
+									</div>
+								</div>
+								<div class="team-card__title">Сергеев<br>Павел Викторович</div>
+								<div class="team-card__info">Генеральный директор</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="section section-history">
+					<div class="container">
+						<div class="section-title">История компании</div>
+						<div class="history-wrapper">
+							<div class="history">
+								<div class="history__item">
+									<div class="history__top">
+										<div class="history__year">1995</div>
+										<div class="history__title">Год основания компании</div>
+										<div class="history__title2">Регистрация юридического лица Apik TECH</div>
+									</div>
+									<div class="history__items-info">
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-man_woman.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество сотрудников компании</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">11 140</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-shopping-basket.svg" alt="">
+											</div>
+											<div class="history-inform__text">Объем реализованной продукции</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-projects.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество внедренных проектов</div>
+										</div>
+									</div>
+								</div>
+								<div class="history__item">
+									<div class="history__top">
+										<div class="history__year">1996</div>
+										<div class="history__title">Год основания компании</div>
+										<div class="history__title2">Регистрация юридического лица Apik TECH</div>
+									</div>
+									<div class="history__items-info">
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-man_woman.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество сотрудников компании</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">11 140</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-shopping-basket.svg" alt="">
+											</div>
+											<div class="history-inform__text">Объем реализованной продукции</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-projects.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество внедренных проектов</div>
+										</div>
+									</div>
+								</div>
+								<div class="history__item">
+									<div class="history__top">
+										<div class="history__year">1997</div>
+										<div class="history__title">Год основания компании</div>
+										<div class="history__title2">Регистрация юридического лица Apik TECH</div>
+									</div>
+									<div class="history__items-info">
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-man_woman.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество сотрудников компании</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">11 140</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-shopping-basket.svg" alt="">
+											</div>
+											<div class="history-inform__text">Объем реализованной продукции</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-projects.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество внедренных проектов</div>
+										</div>
+									</div>
+								</div>
+								<div class="history__item">
+									<div class="history__top">
+										<div class="history__year">1998</div>
+										<div class="history__title">Год основания компании</div>
+										<div class="history__title2">Регистрация юридического лица Apik TECH</div>
+									</div>
+									<div class="history__items-info">
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-man_woman.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество сотрудников компании</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">11 140</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-shopping-basket.svg" alt="">
+											</div>
+											<div class="history-inform__text">Объем реализованной продукции</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-projects.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество внедренных проектов</div>
+										</div>
+									</div>
+								</div>
+								<div class="history__item">
+									<div class="history__top">
+										<div class="history__year">2000</div>
+										<div class="history__title">Год основания компании</div>
+										<div class="history__title2">Регистрация юридического лица Apik TECH</div>
+									</div>
+									<div class="history__items-info">
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-man_woman.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество сотрудников компании</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">11 140</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-shopping-basket.svg" alt="">
+											</div>
+											<div class="history-inform__text">Объем реализованной продукции</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-projects.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество внедренных проектов</div>
+										</div>
+									</div>
+								</div>
+								<div class="history__item">
+									<div class="history__top">
+										<div class="history__year">2001</div>
+										<div class="history__title">Год основания компании</div>
+										<div class="history__title2">Регистрация юридического лица Apik TECH</div>
+									</div>
+									<div class="history__items-info">
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-man_woman.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество сотрудников компании</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">11 140</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-shopping-basket.svg" alt="">
+											</div>
+											<div class="history-inform__text">Объем реализованной продукции</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-projects.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество внедренных проектов</div>
+										</div>
+									</div>
+								</div>
+								<div class="history__item">
+									<div class="history__top">
+										<div class="history__year">2002</div>
+										<div class="history__title">Год основания компании</div>
+										<div class="history__title2">Регистрация юридического лица Apik TECH</div>
+									</div>
+									<div class="history__items-info">
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-man_woman.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество сотрудников компании</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">11 140</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-shopping-basket.svg" alt="">
+											</div>
+											<div class="history-inform__text">Объем реализованной продукции</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-projects.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество внедренных проектов</div>
+										</div>
+									</div>
+								</div>
+								<div class="history__item">
+									<div class="history__top">
+										<div class="history__year">123</div>
+										<div class="history__title">Год основания компании</div>
+										<div class="history__title2">Регистрация юридического лица Apik TECH</div>
+									</div>
+									<div class="history__items-info">
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-man_woman.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество сотрудников компании</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">11 140</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-shopping-basket.svg" alt="">
+											</div>
+											<div class="history-inform__text">Объем реализованной продукции</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-projects.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество внедренных проектов</div>
+										</div>
+									</div>
+								</div>
+								<div class="history__item">
+									<div class="history__top">
+										<div class="history__year">123</div>
+										<div class="history__title">Год основания компании</div>
+										<div class="history__title2">Регистрация юридического лица Apik TECH</div>
+									</div>
+									<div class="history__items-info">
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-man_woman.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество сотрудников компании</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">11 140</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-shopping-basket.svg" alt="">
+											</div>
+											<div class="history-inform__text">Объем реализованной продукции</div>
+										</div>
+										<div class="history-inform">
+											<div class="history-inform__date">121</div>
+											<div class="history-inform__icon">
+												<img src="img/icon-projects.svg" alt="">
+											</div>
+											<div class="history-inform__text">Количество внедренных проектов</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="history__scroll">
+								<svg class="icon" width="25" height="25">
+									<use xlink:href="img/symbol/sprite.svg#hand_up"></use>
+								</svg>
+								<div class="history__scroll__text">Перемещайтесь по истории мышкой либо выбрав год ниже</div>
+							</div>
+							<ul class="history-timeline">
+								<li>
+									<div class="history-timeline__dot"></div>
+									<div class="history-timeline__date">1995</div>
+								</li>
+								<li>
+									<div class="history-timeline__dot"></div>
+									<div class="history-timeline__date">1996</div>
+								</li>
+								<li>
+									<div class="history-timeline__dot"></div>
+									<div class="history-timeline__date">1997</div>
+								</li>
+								<li>
+									<div class="history-timeline__dot"></div>
+									<div class="history-timeline__date">1998</div>
+								</li>
+								<li>
+									<div class="history-timeline__dot"></div>
+									<div class="history-timeline__date">2000</div>
+								</li>
+								<li>
+									<div class="history-timeline__dot"></div>
+									<div class="history-timeline__date">2001</div>
+								</li>
+								<li>
+									<div class="history-timeline__dot"></div>
+									<div class="history-timeline__date">2002</div>
+								</li>
+								<li>
+									<div class="history-timeline__dot"></div>
+									<div class="history-timeline__date">123</div>
+								</li>
+								<li>
+									<div class="history-timeline__dot"></div>
+									<div class="history-timeline__date">123</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="bg-gray-pattern section section-default-offset3">
+					<div class="container">
+						<div class="section-title section-title_small-offset">Партнеры</div>
+						<div class="section-desc">Дорога, ведущая к успеху, вечно обновляется. Успех — это поступательное движение, а не точка, которую можно достичь.</div>
+						<div class="slider-items slider-theme partners-wrapper css-slider_partners">
+							<div class="slider-items__col">
+								<div class="partner-card">
+									<div class="partner-card__img">
+										<img src="img/logotypes/fond_sodeystviya_innov.png" alt="">
+									</div>
+									<div class="partner-card__title">Фонд содействия инновациям</div>
+								</div>
+							</div>
+							<div class="slider-items__col">
+								<div class="partner-card">
+									<div class="partner-card__img">
+										<img src="img/logotypes/korp_razv_zelenograd.png" alt="">
+									</div>
+									<div class="partner-card__title">Корпорация развития Зеленограда</div>
+								</div>
+							</div>
+							<div class="slider-items__col">
+								<div class="partner-card">
+									<div class="partner-card__img">
+										<img src="img/logotypes/1c-bitrix.png" alt="">
+									</div>
+									<div class="partner-card__title">1C-Битрикс</div>
+								</div>
+							</div>
+							<div class="slider-items__col">
+								<div class="partner-card">
+									<div class="partner-card__img">
+										<img src="img/logotypes/miet.png" alt="">
+									</div>
+									<div class="partner-card__title">Национальный исследовательский университет «МИЭТ»</div>
+								</div>
+							</div>
+							<div class="slider-items__col">
+								<div class="partner-card">
+									<div class="partner-card__img">
+										<img src="img/logotypes/fond_sodeystviya_innov.png" alt="">
+									</div>
+									<div class="partner-card__title">Фонд содействия инновациям</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<footer class="footer">
+			<div class="footer__main">
+				<div class="container">
+					<div class="footer__main__row">
+						<div class="footer__main__col footer-logo">
+							<span class="footer-logo__img">
+								<img src="img/logo_white.png" alt="">
+							</span>
+							<span class="footer-logo__sep"></span>
+							<span class="footer-logo__text">Разрабатываем и создаем высокотехнологичную и наукоёмкую продукцию</span>
+						</div>
+						<div class="footer__main__col">
+							<a class="footer-phone" href="tel:84997109911">8 (499) 710-99-11</a>
+						</div>
+						<div class="footer__main__col footer-contacts">
+							<div class="footer-contacts__item">
+								<div class="footer-contacts__title">Димет:</div>
+								<div class="footer-contacts__phone">
+									<a class="phone" href="tel:84955437650">8 (495) 
+										<span>543-76-50</span>
+									</a>
+								</div>
+							</div>
+							<div class="footer-contacts__item">
+								<div class="footer-contacts__title">Адгезиметрь:</div>
+								<div class="footer-contacts__phone">
+									<a class="phone" href="tel:84997109911">8 (499) 
+										<span>710-99-11</span>
+									</a>
+								</div>
+							</div>
+							<div class="footer-contacts__item">
+								<div class="footer-contacts__title">Системы автономного питания: </div>
+								<div class="footer-contacts__phone">
+									<a class="phone" href="tel:84955437650">8 (495) 
+										<span>543-76-50</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom">
+				<div class="container">
+					<div class="footer__bottom__row">
+						<div class="footer__bottom__col">Все права защищены. 2004—2019 ООО «АПИК Технолоджи».   Информация сайта защищена законом об авторских правах.</div>
+						<div class="footer__bottom__col">
+							<a class="link-border" href="#">Политика конфиденциальности</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+		<div class="modal mfp-hide" id="modal-call">
+			<div class="modal-title">Заказать звонок</div>
+			<form class="form-call">
+				<div>
+					<div class="field">
+						<div class="field__main">
+							<input type="text" placeholder="Ваше имя">
+						</div>
+					</div>
+					<div class="field error">
+						<div class="field__main">
+							<input type="text" placeholder="Ваш e-mail">
+						</div>
+					</div>
+				</div>
+				<div class="form-call__btn">
+					<input class="btn btn-main btn-main_mod-blue" type="submit" value="Отправить">
+				</div>
+			</form>
+			<div class="modal-close">
+				<svg class="icon" width="10" height="10">
+					<use xlink:href="img/symbol/sprite.svg#close"></use>
+				</svg>
+			</div>
+		</div>
+		<!-- Scripts-->
+		<script src="js/jquery.min.js"></script>
+		<script src="http://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+		<script src="js/slick.min.js"></script>
+		<script src="js/datepicker.min.js"></script>
+		<script src="js/jquery.tagsinput-revisited.min.js"></script>
+		<script src="js/jquery.magnific-popup.min.js"></script>
+		<script src="js/jquery.inputmask.bundle.min.js"></script>
+		<script src="js/jquery.sticky-kit.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>
